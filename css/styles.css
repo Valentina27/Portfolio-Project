@@ -1,20 +1,5 @@
-.jumbotron {
-		background-image: url("../img/portfolioheroimage1.jpg");
-		background-size: cover;
-}
-
-.jumbotron p {
-		color: white;
-}
-.jumbotron h1 {
-		color: white;
-}
-
-.jumbotron a {
-		color: white;
-}
-
-
+/*General*/
+/*Body*/
 body {
 	background-color: transparent;
 	margin: 0;
@@ -24,6 +9,7 @@ body {
 	padding: 0px 50px 0px 50px
 }
 
+/*Navigation*/
 .nav ul li {
 	display: inline-block;	
 }
@@ -54,6 +40,145 @@ body {
 	text-decoration: none;
 }
 
+/*Index*/
 .item>.carousel-caption>h3 {
 	color: black;
+}
+
+/*About*/
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.header {
+	text-align: center;
+	padding: 20px 0px 20px 0px;
+	position: fixed;
+	color: white;
+}
+
+.intro {
+	padding: 10px 50px
+}
+
+.column {
+	float: left;
+	width: 50%;
+}
+
+.image {
+	display: inline-block;
+	float: left;
+	
+}
+
+.skills {
+	display: inline-block;
+	float: left;
+	width: 60%;
+	padding: 10px 50px
+}
+
+.main_text {
+  text-align: center;
+	clear: both;
+	padding: 10px 50px;
+	position: static;
+}
+
+#skill_list {
+	margin-left: 50px;
+}
+
+/*Typography*/
+
+h1,
+h2,
+h3 {
+	font-family: Futura, Helvetica, Arial, sans-serif;
+}
+
+
+p,
+li {
+	Georgia, Goudi Old Style, Times, Times New Roman, serif;
+}
+
+.main_text p {
+	font-family: Futura, Helvetica, Arial, sans-serif;
+}
+
+.intro p {
+	font-size: 3em;
+	font-weight: 100;
+	-webkit-margin-before: 0;
+}
+
+.skills h2 {
+	text-align: center;
+	text-transform: uppercase;
+	background-color: #D0D0D0;
+	color: #FFF;
+	padding: 10px 50px;
+}
+
+/*Work*/
+
+
+/*Contact*/
+body {
+  background-image: url("../img/bild.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+
+/*FAQ*/
+
+.margin-top{
+  margin-top: 50px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.details{
+  color: white;
+}
+
+.best{
+  color: white;
+}
+
+.big {	
+  font-size: 40px;
+  color: white;
+}
+
+.facebook {
+  font-family: Futura, Helvetica, Arial, sans-serif;
+  color: white;
+}
+
+
+/*Typography*/
+
+
+a{
+  border: 1px solid white;
+  padding: 10px 10px;
+  border-radius: 15px 50px 30px;
+  background-color: #E1E0E1;
+  text-decoration: none;
+  color: white;
+}
+
+h1,
+h2 {
+	font-family: Futura, Helvetica, Arial, sans-serif;
+	color: #E1E0E1; 
+  font-size: 50px;
+  text-align: center;
 }

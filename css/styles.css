@@ -1,0 +1,59 @@
+.jumbotron {
+		background-image: url("../img/portfolioheroimage1.jpg");
+		background-size: cover;
+}
+
+.jumbotron p {
+		color: white;
+}
+.jumbotron h1 {
+		color: white;
+}
+
+.jumbotron a {
+		color: white;
+}
+
+
+body {
+	background-color: transparent;
+	margin: 0;
+}
+
+.about{
+	padding: 0px 50px 0px 50px
+}
+
+.nav ul li {
+	display: inline-block;	
+}
+
+.nav {
+	background:rgba(255,255,255,0.5);
+	position: fixed;
+	width: 100%;
+	top: 0;
+	padding: 20px 10px 20px 700px;	
+	z-index: 2;
+}
+
+.nav ul li a {
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+	padding: 10px 20px 10px 20px;
+	color: white;
+	border: 1px solid #E1E0E1;
+	border-radius: 15px 50px 30px;
+	margin-left: 10px;	
+	transition: background-color 600ms;
+	-webkit-transition: background-color 600ms;
+}
+
+.nav a:hover {
+	background-color: #E1E0E1;
+	text-decoration: none;
+}
+
+.item>.carousel-caption>h3 {
+	color: black;
+}

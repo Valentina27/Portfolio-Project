@@ -1,0 +1,51 @@
+body {
+  background-image: url("../img/bild.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.margin-top{
+  margin-top: 50px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.details{
+  color: white;
+}
+
+.best{
+  color: white;
+}
+
+.big {	
+  font-size: 40px;
+  color: white;
+}
+
+.facebook {
+  font-family: Futura, Helvetica, Arial, sans-serif;
+  color: white;
+}
+
+
+/*Typography*/
+
+
+a{
+  border: 1px solid white;
+  padding: 10px 10px;
+  border-radius: 15px 50px 30px;
+  background-color: #E1E0E1;
+  text-decoration: none;
+  color: white;
+}
+
+h1,
+h2 {
+	font-family: Futura, Helvetica, Arial, sans-serif;
+	color: #E1E0E1; 
+  font-size: 50px;
+  text-align: center;
+}

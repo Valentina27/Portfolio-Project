@@ -1,0 +1,22 @@
+body {
+  background-image: url("../img/bild.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.panel-body{
+	font-family: Futura, Helvetica, Arial, sans-serif;
+}
+
+.panel-heading{
+	background-color: #FFFCDF;
+}
+
+.panel-title{
+	font-family: Futura, Helvetica, Arial, sans-serif;
+	color: #00C1C1;
+
+}
+.panel-default>.panel-heading { background-color: #FFFCDF ; 
+}

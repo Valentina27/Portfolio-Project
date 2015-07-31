@@ -125,17 +125,23 @@ li {
 }
 
 /*Work*/
-
+.col-md-4{
+	padding: 10px 10px 10px 10px;
+}
 
 /*Contact*/
-body {
+.contact {
   background-image: url("../img/bild.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
 }
 
-
+.img-responsive {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
 /*FAQ*/
 
 .margin-top{
@@ -164,7 +170,6 @@ body {
 
 
 /*Typography*/
-
 
 a{
   border: 1px solid white;

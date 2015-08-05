@@ -1,8 +1,9 @@
 /*General*/
 /*Body*/
 body {
-	background-color: transparent;
+	background-color: #EEEEEE;
 	margin: 0;
+	position: relative;
 }
 
 .about{
@@ -10,41 +11,65 @@ body {
 }
 
 /*Navigation*/
-.nav ul li {
-	display: inline-block;	
+
+.nav{
+	float: right;
+}
+.navbar {
+	background-color: rgba(255, 255, 255, 0.7);
+	border: none;
 }
 
-.nav {
-	background:rgba(255,255,255,0.5);
-	position: fixed;
-	width: 100%;
-	top: 0;
-	padding: 20px 10px 20px 700px;	
-	z-index: 2;
-}
-
-.nav ul li a {
-	text-transform: uppercase;
-	letter-spacing: 0.05em;
-	padding: 10px 20px 10px 20px;
+.nav li a{
+	padding: 10px 10px 10px 10px;
 	color: white;
 	border: 1px solid #E1E0E1;
 	border-radius: 15px 50px 30px;
+	background-color: white;
 	margin-left: 10px;	
 	transition: background-color 600ms;
 	-webkit-transition: background-color 600ms;
 }
 
-.nav a:hover {
-	background-color: #E1E0E1;
+.projectName {
+    text-transform: uppercase;
+    font-size: 16px;
+    padding: 13px;
+    color: black;
+}
+
+.projectName a:hover {
 	text-decoration: none;
+	color: white;
+
 }
 
 /*Index*/
 .item>.carousel-caption>h3 {
-	color: black;
+	color: #EEEEEE;
 }
 
+.more a {
+	border: 1px solid white;
+  padding: 10px 10px;
+  border-radius: 15px 50px 30px;
+  background-color: #E1E0E1;
+  text-decoration: none;
+  color: white;
+}
+
+.more a:hover {
+	background-color: #E1E0E1;
+	text-decoration: none;
+}
+
+.firstline {
+	color: white;
+}
+
+.anchor {
+	padding-top: 48px;
+}
 /*About*/
 
 .container {
@@ -55,41 +80,48 @@ body {
 .header {
 	text-align: center;
 	padding: 20px 0px 20px 0px;
-	position: fixed;
-	color: white;
+	
+	color: black;
 }
 
 .intro {
 	padding: 10px 50px
 }
 
-.column {
-	float: left;
-	width: 50%;
-}
+
 
 .image {
 	display: inline-block;
 	float: left;
-	
 }
 
 .skills {
-	display: inline-block;
-	float: left;
-	width: 60%;
-	padding: 10px 50px
+	text-align: center;
+	clear: both;
+	padding: 10px 50px;
+	position: static;
+	list-style-type: none;
+	font-size: 3em;
+	font-weight: 100;
+	-webkit-margin-before: 0;
 }
+
 
 .main_text {
   text-align: center;
 	clear: both;
 	padding: 10px 50px;
 	position: static;
+	font-size: 2em;
+	font-weight: 100;
+	-webkit-margin-before: 0;
 }
 
-#skill_list {
-	margin-left: 50px;
+#wheel {
+  background-image: url("../img/wheel.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 /*Typography*/
@@ -98,16 +130,15 @@ h1,
 h2,
 h3 {
 	font-family: Futura, Helvetica, Arial, sans-serif;
+	color: #BDC3C7; 
+  font-size: 50px;
+  text-align: center;
 }
 
 
-p,
-li {
-	Georgia, Goudi Old Style, Times, Times New Roman, serif;
-}
 
 .main_text p {
-	font-family: Futura, Helvetica, Arial, sans-serif;
+	
 }
 
 .intro p {
@@ -116,31 +147,34 @@ li {
 	-webkit-margin-before: 0;
 }
 
-.skills h2 {
-	text-align: center;
-	text-transform: uppercase;
-	background-color: #D0D0D0;
-	color: #FFF;
-	padding: 10px 50px;
-}
 
 /*Work*/
-.col-md-4{
-	padding: 10px 10px 10px 10px;
-}
+
 
 /*Contact*/
-.contact {
-  background-image: url("../img/bild.jpg");
+#contact {
+  background-image: url("../img/forest.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
 }
 
+
 .img-responsive {
 	display: block;
 	max-width: 100%;
 	height: auto;
+}
+
+.back a{
+	border: 1px solid white;
+  padding: 10px 10px;
+  border-radius: 15px 50px 30px;
+  background-color: #E1E0E1;
+  text-decoration: none;
+  color: white;
+  margin-bottom: 100px;
+
 }
 /*FAQ*/
 
@@ -168,22 +202,8 @@ li {
   color: white;
 }
 
-
-/*Typography*/
-
-a{
-  border: 1px solid white;
-  padding: 10px 10px;
-  border-radius: 15px 50px 30px;
-  background-color: #E1E0E1;
-  text-decoration: none;
-  color: white;
+#contact {
+	margin-bottom: 48px;
 }
 
-h1,
-h2 {
-	font-family: Futura, Helvetica, Arial, sans-serif;
-	color: #E1E0E1; 
-  font-size: 50px;
-  text-align: center;
-}
+

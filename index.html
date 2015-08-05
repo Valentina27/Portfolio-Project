@@ -1,14 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  
-  <!-- Latest compiled and minified Bootstrap CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
-
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>Hello World!</title>
- 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
     <link href="css/styles.css" rel="stylesheet"> 
     <!-- Custom styles for this template go here -->
     
@@ -27,56 +24,67 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
 </head>
 
-<body>
-  <div class="nav">
-    <ul>
-    <div class="row">
-      <div class="col-md-3 col-xs-12">
-      <li><a href="#">Home</a></li> 
-      </div>
-      <div class="col-md-3 col-xs-12">
-      <li><a href="about.html">About</a></li>
-      </div>
-      <div class="col-md-3 col-xs-12">
-      <li><a href="contact.html">Contact</a></li>
-      </div>
-      <li><a href="faq.html">faq</a></li>
+<body data-spy="scroll" data-target=".navbar">
+
+<div class="container-fluid" id="home">
+<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+  <div class="container-fluid" >
+  <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+    <div class="projectName"><a class="projectName" href="#">Valentina Consiglio</a> </div>
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+     
     </div>
-    </ul>
-  </div>
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#faq">faq</a></li>
+      </ul>
+        
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</div>
+
+
   <!-- Main jumbotron for a primary marketing message or call to action -->
    
-
-
-    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-    <!-- Indicators -->
-      <ol class="carousel-indicators">
-        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-      </ol>
+  <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+      <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+      <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+    </ol>
 
   <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
       <div class="item active">
-        <img src="img/portfolioheroimage3.jpg" alt="img1">
+        <img src="img/forest1.jpg" alt="img1">
         <div class="carousel-caption">
           <h3> Time </h3>
         </div>
       </div>
     <div class="item">
-      <img src="img/lesson8-portfolioheroimage4.jpg" alt="img2">
+      <img src="img/grapes.jpg" alt="img2">
       <div class="carousel-caption">
         <h3> and </h3>
       </div>
     </div>
     <div class="item">
-      <img src="img/mac.jpg" alt="img3">
+      <img src="img/vogel1.jpg" alt="img3">
       <div class="carousel-caption">
          <h3> Space </h3>
       </div>
     </div>
-  
 
     <!-- Controls -->
     <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
@@ -87,17 +95,20 @@
       <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
       <span class="sr-only">Next</span>
     </a>
+    </div>
   </div>
 
+  <div class="container-fluid" id="wheel">
 
-      <h1><tt>Valentina Consiglio</h1>
-      <p><strong>Coding gives you the chance of being exceptionally creative.</strong></p>
+  <div class="container-fluid anchor" id="home">
+      <h1>Valentina Consiglio</h1>
+      <p class="firstline"><strong>Coding gives you the chance of being exceptionally creative.</strong></p>
 
+      <div class="more">
       <a href="https://de.wikipedia.org/wiki/Inspiration">Learn more</a>
-      
+      </div>
 
-
-  <div class="container">
+  
     <!-- Example row of columns -->
     <div class="row">
       <div class="col-md-4 col-xs-8">
@@ -116,15 +127,178 @@
         <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
       </div>
     </div>
-
-      
-      <hr>
-    </div> <!-- /container -->
+  </div> <!-- /container -->
 
 
-    <!-- 
-    ================================================== -->
-    <!-- Can place script tags with JavaScript files here -->
 
-  </body>
+<div class="container-fluid anchor" id="about">
+  <div class="header">  
+    <h1> Introduction </h1>
+  </div>    
+
+  
+    <div class="intro">
+      <p>
+        Das größte Lebenshindernis ist die Erwartung:
+        Abhängig vom Morgen, verliert sie das Heute.
+        Über das, was in der Hand des Schicksals liegt,
+        verfügst du, doch das, was in deiner Hand liegt,
+        lässt du dir entgehen. Wonach hältst du Ausschau?
+        Wonach streckst du dich?
+        Alles Künftige ist ungewiss: Lebe jetzt gleich!
+      </p>
+    </div> <!--intro-->
+ 
+
+
+
+    <div class="skills">
+      <h2> Most important things in life </h2>
+     
+        <li> . Love . </li>
+        <li> . Soul . </li>
+        <li> . Faith . </li>
+     
+    </div> <!--skills-->
+
+
+    
+  <div class="main_text">
+    <h3> Story of my Life </h3>
+    <p> 
+      A poem for the wild hearted. 
+
+      Steering forward in large bold moves.<br>
+      Guided by a young mystery loving heartbeat.<br>
+      Shoes are worn out by treading on life's mountain trails.<br>
+      Spreading oxigants through lungs that can not only <br>expand like wings but really believe flying is possible
+      <br>
+      flowing underground like blood gives life in the unseen
+      <br>
+      wake up beauty, don't slumber in a bed that has become too small for your dreams <br>
+      dancing wide awake under the wild night sky. <br>
+      Giantkiller's and peace lover <br>
+      envision a brighter day with an armour of hope in a war where love cannot loose.
+    </p>
+  </div><!--main text-->
+</div><!--container-->
+</div><!--conteiner wheel-->
+
+<div class="container-fluid anchor" id="work">
+  <h1> Work </h1>
+    <div class="row" id="horse">
+      <div class="col-md-4 col-xs-8"> 
+      <img  src="img/horse.jpg" class="img-responsive"> </div>
+      <div class="col-md-4 col-xs-8"> 
+      <img src="img/horse.jpg" class="img-responsive"> </div>
+      <div class="col-md-4 col-xs-8"> 
+      <img src="img/horse.jpg" class="img-responsive"> </div>
+    </div>
+  </div><!---container-fluid-->
+
+
+<div class="container-fluid anchor" id="contact">
+
+  <div class="head">
+    <h1> Contact </h1>
+    <h3> Inspirationguide </h3> 
+  </div>
+  
+  <div class="details margin-top">
+  <span class="glyphicon glyphicon-info-sign"></span>
+    Adress: Valentina Consiglio, Werastraße 33, 88045 Friedrichshafen <br>
+    <span class="glyphicon glyphicon-phone"></span>
+    Phone: 0176 - 85 15 25 83 
+  </div>
+
+  <div class="best margin-top">
+    <span class="glyphicon glyphicon-triangle-right"></span>You can reach me best via Email. Just drop me a line. <span class="glyphicon glyphicon-triangle-left"></span>
+  </div>
+
+  <div class="big margin-top">
+    <span class="glyphicon glyphicon-envelope"></span>
+    v.consiglio@zeppelin-university.net <br> 
+  </div>
+
+  <div class="facebook margin-top">
+    <span class="glyphicon glyphicon-heart"></span>
+    https://www.facebook.com/valentina.consiglio.9 <br>
+    <span class="glyphicon glyphicon-heart"></span> @ValentinaConsi <br> 
+    <span class="glyphicon glyphicon-heart"></span>traumtaenzerinnn
+  </div>
+
+  <div class="back margin-top">
+    <a href="index.html">
+    BACK 
+    </a> 
+  </div>
+</div><!---container-fluid-->
+
+<div class="container-fluid anchor" id="faq">
+<div class="head">
+    <h1> FAQs</h1>
+    <h2> Frequent Questions</h2> 
+  </div>
+
+<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingOne">
+      <h4 class="panel-title">
+        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne"><span class="glyphicon glyphicon-question-sign"></span>
+        Question #1 
+        </a>
+      </h4>
+    </div><!--/panelheading-->
+    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+      <div class="panel-body">
+        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+      </div><!--/panel-body-->
+    </div><!--/id="collapseOne"...-->
+  </div><!--/panel panel-default-->
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingTwo">
+      <h4 class="panel-title">
+        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo"><span class="glyphicon glyphicon-question-sign"></span>
+        Question #2 
+        </a>
+      </h4>
+    </div><!--/panelheading-->
+    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+      <div class="panel-body">
+        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+        </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingThree">
+      <h4 class="panel-title">
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree"><span class="glyphicon glyphicon-question-sign"></span>
+          Question #3
+        </a>
+      </h4>
+    </div>
+    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+      <div class="panel-body">
+        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+      </div>
+    </div>
+  </div>
+</div><!--/panel-group-->
+
+</div><!---container-fluid-->
+
+  <script type="text/javascript">
+    var $root = $('html, body');
+      $('.navbar-nav a').click(function() {
+          var href = $.attr(this, 'href');
+          $root.animate({
+              scrollTop: $(href).offset().top
+          }, 500, function () {
+              window.location.hash = href;
+          });
+          return false;
+      });
+  </script>
+
+ </body>
 </html>
